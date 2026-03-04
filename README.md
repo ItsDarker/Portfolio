@@ -2,7 +2,7 @@
 
 A modern, interactive 3D portfolio website showcasing electrical engineering projects and expertise. Built with React, Three.js, and Vite for optimal performance.
 
-**Live Demo:** [View Portfolio](https://your-site-name.netlify.app)
+**Live Demo:** [View Portfolio](https://kumarans.netlify.app/)
 
 ---
 
@@ -510,15 +510,6 @@ npm run dev -- --port 3000
 
 ---
 
-## 📱 Browser Support
-
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-
----
-
 ## 📄 License
 
 This project is open source. Feel free to fork and customize for your own portfolio!
@@ -537,22 +528,12 @@ Contributions are welcome!
 
 ---
 
-## 📞 Contact & Social
-
-- **Email:** kumaran2962@gmail.com
-- **LinkedIn:** [Your LinkedIn](https://linkedin.com/in/kumaransankar)
-- **GitHub:** [ItsDarker](https://github.com/ItsDarker)
-- **Location:** Chicago, Illinois
-
----
-
 ## 🎓 Credits
 
 Built with:
 - React & Three.js
 - Tailwind CSS
 - Framer Motion
-- And ❤️
 
 ---
 
@@ -564,8 +545,3 @@ Built with:
 - [Framer Motion](https://www.framer.com/motion/)
 - [Vite Guide](https://vitejs.dev/guide/)
 
----
-
-**Last Updated:** March 2024
-
-**Made with ❤️ by Kumaran Sankar**
