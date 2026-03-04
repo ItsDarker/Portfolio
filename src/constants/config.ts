@@ -40,13 +40,13 @@ type TConfig = {
 
 export const config: TConfig = {
   html: {
-    title: "John Doe — 3D Portfolio",
-    fullName: "John Doe",
-    email: "johndoe@mail.com",
+    title: "Kumaran Sankar",
+    fullName: "Kumaran Sankar",
+    email: "kumaran2962@gmail.com",
   },
   hero: {
-    name: "John Doe",
-    p: ["I develop 3D visuals, user", "interfaces and web applications"],
+    name: "Kumaran Sankar",
+    p: ["Electrical Engineer advancing", "Hybrid Vehicle Technology & Power Systems"],
   },
   contact: {
     p: "Get in touch",
@@ -67,15 +67,15 @@ export const config: TConfig = {
     about: {
       p: "Introduction",
       h2: "Overview.",
-      content: `I'm a skilled software developer with experience in TypeScript and
-      JavaScript, and expertise in frameworks like React, Node.js, and
-      Three.js. I'm a quick learner and collaborate closely with clients to
-      create efficient, scalable, and user-friendly solutions that solve
-      real-world problems. Let's work together to bring your ideas to life!`,
+      content: `Dedicated Master's student in Electrical Engineering in the United States with a strong focus on power systems, electric machines, control systems, embedded systems, and hybrid/electric vehicle technologies. Over the past 1.5 years, I have deepened my technical expertise through advanced coursework, hands-on projects, and continuous self-driven research aligned with real-world engineering challenges.
+
+I specialize in designing, analyzing, and optimizing electrical and electronic systems from modeling power electronics and motor drives to building smart, efficient, and reliable solutions for electrified and automated applications. My experience includes work on EV subsystems, sensor-driven automation, energy monitoring solutions, and embedded IoT-based designs, giving me a robust blend of hardware and system-level skills.
+
+Driven, collaborative, and execution focused, I thrive in environments where innovation and problem solving create measurable impact. I'm excited to connect with professionals and contribute to advancing the future of clean, intelligent energy and transportation systems.`,
     },
     experience: {
-      p: "What I have done so far",
-      h2: "Work Experience.",
+      p: "My educational journey",
+      h2: "Education.",
     },
     feedbacks: {
       p: "What others say",
@@ -84,11 +84,7 @@ export const config: TConfig = {
     works: {
       p: "My work",
       h2: "Projects.",
-      content: `Following projects showcases my skills and experience through
-    real-world examples of my work. Each project is briefly described with
-    links to code repositories and live demos in it. It reflects my
-    ability to solve complex problems, work with different technologies,
-    and manage projects effectively.`,
+      content: `Following projects showcase my expertise in electrical engineering through innovative solutions spanning power electronics, embedded systems, IoT technology, and electric vehicle systems. Each project demonstrates my ability to apply theoretical knowledge to practical challenges, utilizing advanced tools like MATLAB, Simulink, and embedded microcontrollers. These works reflect my commitment to designing reliable, energy-efficient solutions and excellence in engineering design.`,
     },
   },
 };

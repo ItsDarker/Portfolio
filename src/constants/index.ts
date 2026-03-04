@@ -24,10 +24,8 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+  pondy,
+  iit,
   carrent,
   jobit,
   tripguide,
@@ -41,7 +39,7 @@ export const navLinks: TNavLink[] = [
   },
   {
     id: "work",
-    title: "Work",
+    title: "Education",
   },
   {
     id: "contact",
@@ -51,129 +49,103 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
-    icon: web,
-  },
-  {
-    title: "React Native Developer",
+    title: "Electric Vehicle Technology",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Power Systems Engineering",
+    icon: web,
+  },
+  {
+    title: "Electrical Troubleshooting",
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Sustainable Energy Solutions",
     icon: creator,
   },
 ];
 
 const technologies: TTechnology[] = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
+    name: "MATLAB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Simulink",
+    icon: reactjs,
   },
   {
-    name: "git",
-    icon: git,
+    name: "PSIM",
+    icon: javascript,
   },
   {
-    name: "figma",
+    name: "Altium",
+    icon: nodejs,
+  },
+  {
+    name: "Arduino IDE",
+    icon: redux,
+  },
+  {
+    name: "EasyEDA",
     icon: figma,
   },
   {
-    name: "docker",
+    name: "Multisim",
+    icon: tailwind,
+  },
+  {
+    name: "Control Systems",
+    icon: typescript,
+  },
+  {
+    name: "Power Electronics",
+    icon: html,
+  },
+  {
+    name: "Circuit Design",
+    icon: css,
+  },
+  {
+    name: "Embedded Systems",
+    icon: threejs,
+  },
+  {
+    name: "IoT Technologies",
     icon: docker,
+  },
+  {
+    name: "Git",
+    icon: git,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "Bachelor of Technology - Electrical & Electronics Engineering",
+    companyName: "Pondicherry University, India",
+    icon: pondy,
+    iconBg: "#FFFFFF",
+    date: "September 2019 - May 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Completed comprehensive coursework in power systems, control systems, and electrical machines.",
+      "Gained strong foundation in circuit analysis, electromagnetic theory, and digital electronics.",
+      "Developed expertise in electrical troubleshooting and electrical wiring.",
+      "Participated in hands-on laboratory experiments and engineering design projects.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Master of Science - Electrical Engineering",
+    companyName: "Illinois Institute of Technology, Chicago, USA",
+    icon: iit,
+    iconBg: "#CC0000",
+    date: "August 2024 - December 2026",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Specializing in Advanced Power Systems and Electric Vehicle Technology.",
+      "Engaged in advanced coursework: Systems Engineering, Electric Utilities Fundamentals, Electric Power Systems.",
+      "Conducting research in hybrid vehicle technology and sustainable transportation solutions.",
+      "Applying theoretical knowledge through intensive laboratory work focused on electrified transportation.",
     ],
   },
 ];
@@ -207,20 +179,20 @@ const testimonials: TTestimonial[] = [
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "Spot Welding Using PWM Controller",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A PWM-controlled spot welding system that precisely regulates weld current and duration to improve weld quality, prevent overheating, and enhance energy efficiency. The system uses precise control over the amount of current flowing through the weld, optimizing weld strength while reducing overheating risk and energy consumption.",
     tags: [
       {
-        name: "react",
+        name: "PWM-Controller",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "STM32",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Power-Electronics",
         color: "pink-text-gradient",
       },
     ],
@@ -228,20 +200,20 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Smart Biofloc Fish Farming",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A smart biofloc fish farming system using sensors, microcontrollers, and IoT to automatically monitor and maintain optimal water quality. The system continuously monitors temperature, pH, turbidity, and water level, automatically activating pumps, motors, and heaters to stabilize the aquatic environment while streaming live data to a cloud interface.",
     tags: [
       {
-        name: "react",
+        name: "IoT",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Embedded-C",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Sensors",
         color: "pink-text-gradient",
       },
     ],
@@ -249,20 +221,20 @@ const projects: TProject[] = [
     sourceCodeLink: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Electric Vehicle Battery Management System",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Developed a comprehensive battery management system for hybrid vehicles focusing on optimizing charge/discharge cycles, thermal management, and state-of-charge estimation. Enhanced battery life and vehicle efficiency through advanced control algorithms.",
     tags: [
       {
-        name: "nextjs",
+        name: "ev-technology",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "matlab",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "control-systems",
         color: "pink-text-gradient",
       },
     ],

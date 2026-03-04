@@ -1,11 +1,33 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
-import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import { OrbitControls, Preload, useGLTF, useTexture } from "@react-three/drei";
+import * as THREE from "three";
 
 import CanvasLoader from "../layout/Loader";
 
 const Computers: React.FC<{ isMobile: boolean }> = ({ isMobile }) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
+  const pcbTexture = useTexture("/pcb_img.png");
+
+  // Replace monitor material completely with pcb_img
+  useEffect(() => {
+    if (computer.scene && pcbTexture) {
+      computer.scene.traverse((child: any) => {
+        // Replace material on screen/monitor
+        if (
+          child.name.toLowerCase().includes("screen") ||
+          child.name.toLowerCase().includes("monitor") ||
+          child.name.toLowerCase().includes("display")
+        ) {
+          // Create completely new material with bright pcb texture
+          const newMaterial = new THREE.MeshBasicMaterial({
+            map: pcbTexture,
+          });
+          child.material = newMaterial;
+        }
+      });
+    }
+  }, [computer, pcbTexture]);
 
   return (
     <mesh>
